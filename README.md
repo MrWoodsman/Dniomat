@@ -1,6 +1,11 @@
 # Dniomat
 A PWA app and website that tracks days to or from specific dates. It allows you to add multiple events and calculate the time between them.
 
+The site operates entirely client-side and does not require account creation or any additional setup. It relies on LocalStorage for data management.
+
+> [!WARNING]
+> The site functions on desktop devices but is not fully optimized for very wide screens. Plans are in place to add an automatic switch to an alternative view for screens that are too wide.
+
 [Go to Website](https://mrwoodsman.pl/counter/)
 
 # Preview
@@ -10,9 +15,6 @@ See the app before you start using it. Starting from the left:
 - Event list where you can add, name, and modify event dates
 
 ![Frame](https://github.com/user-attachments/assets/af996c7f-6e5e-49d4-aeda-be5a2e507667)
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
 
 # Planned Updates
 
