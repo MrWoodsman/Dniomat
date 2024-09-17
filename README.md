@@ -14,10 +14,7 @@ Zobacz aplikacje zanim zaczniesz korzystać. Zacznijmy od lewej:
 
 # Planned updates
 
-<p align="center">
 `🟩 Completed`  `🟨 In Progress / Planned` `🟥 Canceled`
-</p>
-
 
 
 | Status | Description |
@@ -26,8 +23,6 @@ Zobacz aplikacje zanim zaczniesz korzystać. Zacznijmy od lewej:
 |🟩| Add multiple events instead of just one|
 |🟨| Enable reordering of events by dragging|
 |🟨| Share events via QR code|
-|🟩🟨🟥|  |
-
 
 #  Error and bugs  
 If any part is missing or something is not working correctly, report the issue here on GitHub – it will be investigated. To report an error, go to the "Issues" tab.
