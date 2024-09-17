@@ -11,6 +11,9 @@ See the app before you start using it. Starting from the left:
 
 ![Frame](https://github.com/user-attachments/assets/af996c7f-6e5e-49d4-aeda-be5a2e507667)
 
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
 # Planned Updates
 
 `🟩 Completed`  `🟨 In Progress / Planned` `🟥 Canceled`
