@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+	--sat: env(safe-area-inset-top);
+
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	/* Opcjonalne, do przyszłego użycia */
+	color-scheme: dark;
+	/* color: rgba(255, 255, 255, 0.87); */
+	/* background-color: #242424; */
+
+	/* Te właściwości mogą poprawić jakość renderowania tekstu */
+	/* font-synthesis: none; */
+	/* text-rendering: optimizeLegibility; */
+	/* -webkit-font-smoothing: antialiased; */
+	/* -moz-osx-font-smoothing: grayscale; */
+}
+
+html,
+body,
+#root {
+	overflow: hidden;
+	overscroll-behavior-y: none;
+}
+
+.page-layout {
+	box-sizing: content-box;
+	height: calc(var(--vh, 1vh) * 100);
+	padding-top: env(safe-area-inset-top);
+	display: grid;
+	// grid-template-rows: calc(100% - 60px - env(safe-area-inset-bottom)) calc(
+	// 		60px + env(safe-area-inset-bottom)
+	// 	);
+	grid-template-rows: 1fr auto;
+}
+
+.bottom-safe {
+	padding-bottom: max(1rem, env(safe-area-inset-bottom));
+}
+
+.top-safe {
+	padding-top: max(1rem, env(safe-area-inset-top));
+}
+
+// #root {
+// 	// height: 100dvh; /* Zajmuje 100% widoku przeglądarki */
+// 	// // overflow: hidden; /* Brak przewijania */
+// 	// margin: 0; /* Usunięcie domyślnych marginesów */
+// 	// padding: 0; /* Usunięcie domyślnych paddingów */
+// 	overflow: hidden;
+// 	height: 50vh;
+// 	overscroll-behavior-y: contain;
+
+// 	// overscroll-behavior: none; /* Zapobiega pr eciągnięciu nad krawędź strony */
+// }
+
+// body {
+// 	padding-bottom: env(
+// 		safe-area-inset-bottom
+// 	); /* Zabezpieczenie przed notch na urządzeniach mobilnych */
+// }
+
+// .popup_height {
+// 	// height: calc(1 + env(safe-area-inset-top));
+// 	height: 100%;
+// }
+
+// .bottom-safe {
+// 	padding-bottom: max(1rem, env(safe-area-inset-bottom));
+// }
+
+// .top-safe {
+// 	padding-top: max(1rem, env(safe-area-inset-top));
+// }
+.gradient-home-page {
+	background: radial-gradient(
+			139.71% 76.65% at 50% 50%,
+			rgba(245, 158, 11, 0) 0%,
+			#f59e0b 100%
+		),
+		#fbbf24; /* Tworzy gradient na stronie głównej */
+}
+
+// .date-input {
+// 	width: 105px;
+// 	outline: none;
+// 	&::-webkit-calendar-picker-indicator {
+// 		transform: translateY(0.5px);
+// 		filter: invert(1);
+// 	}
+// }
