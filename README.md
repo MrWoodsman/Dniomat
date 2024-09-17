@@ -1,28 +1,27 @@
-
 # Dniomat
-A PWA app and website that tracks days to or from specific dates. It lets you add multiple events and calculate the time between them.
+A PWA app and website that tracks days to or from specific dates. It allows you to add multiple events and calculate the time between them.
 
-[Go to Webiste](https://mrwoodsman.pl/counter/)
+[Go to Website](https://mrwoodsman.pl/counter/)
 
 # Preview
-Zobacz aplikacje zanim zaczniesz korzystać. Zacznijmy od lewej:
-- Widok ile minęło od jakiegoś wydarzenia
-- Widok odliczania ile pozostało dni do wybranej daty
-- Lista eventów gdzie możemy dodawać, nazywać i zmieniać ich datę
+See the app before you start using it. Starting from the left:
+- View how many days have passed since a specific event
+- Countdown view showing how many days remain until a chosen date
+- Event list where you can add, name, and modify event dates
 
 ![Frame](https://github.com/user-attachments/assets/af996c7f-6e5e-49d4-aeda-be5a2e507667)
 
-# Planned updates
+# Planned Updates
 
 `🟩 Completed`  `🟨 In Progress / Planned` `🟥 Canceled`
 
-
 | Status | Description |
-|:-------------:|:--------|
-|🟩| Track not only the days since a date but also the days remaining until a date|
-|🟩| Add multiple events instead of just one|
-|🟨| Enable reordering of events by dragging|
-|🟨| Share events via QR code|
+|:------:|-------------|
+| 🟩     | Track both the days since a date and the days remaining until a date |
+| 🟩     | Add multiple events instead of just one |
+| 🟨     | Enable reordering of events by dragging |
+| 🟨     | Share events via QR code |
+|        | More features to come! |
 
-#  Error and bugs  
-If any part is missing or something is not working correctly, report the issue here on GitHub – it will be investigated. To report an error, go to the "Issues" tab.
+# Error and Bugs  
+If any part is missing or not working correctly, report the issue here on GitHub – it will be investigated. To report an error, go to the "Issues" tab.
